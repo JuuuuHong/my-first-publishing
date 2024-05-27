@@ -12,7 +12,7 @@ html {
     justify-content: center;
 }
 
-.Box {
+.ChatRoomBox {
     width: 1230px;
     height: 873px;
     background-color: black;   
@@ -26,20 +26,20 @@ html {
     display: inline-flex;
 }
 
-.A {
+.Profile {
     width: 60px;
     height: 60px;
     border-radius: 100%;
     background-color: white;
 }
 
-.B {
+.ChatElement {
     margin-left: 30px;
     margin-top: 5px;
     color: white;
 }
 
-.C {
+.MessageContent {
     margin-top: 11px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -52,12 +52,12 @@ html {
     text-indent: 12pt;
 }
 
-.D {
+.Time {
     margin-left: 6px;
     display: flex;
     align-items: flex-end;
 }
 
-.E {
+.Message {
     display: flex;
 }
